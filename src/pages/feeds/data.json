@@ -1,0 +1,58 @@
+[
+    {
+        "id": "0",
+        "avatar": "./img/avatar1.png",
+        "username": "Josh"
+    },
+
+    {
+        "id": "1",
+        "avatar": "./img/avatar1.png",
+        "username": "Andrew"
+    },
+    {
+        "id": "2",
+        "avatar": "./img/avatar1.png",
+        "username": "Camille"
+    },
+    {
+        "id": "3",
+        "avatar": "./img/avatar2.png",
+        "username": "Camille"
+    },
+    {
+        "id": "4",
+        "avatar": "./img/avatar3.png",
+        "username": "Marselle"
+    },
+    {
+        "id": "5",
+        "avatar": "./img/avatar4.png",
+        "username": "Piter"
+    },
+    {
+        "id": "6",
+        "avatar": "./img/avatar5.png",
+        "username": "Can"
+    },
+    {
+        "id": "7",
+        "avatar": "./img/avatar6.png",
+        "username": "iloveanime"
+    },
+    {
+        "id": "8",
+        "avatar": "./img/avatar7.png",
+        "username": "Diself"
+    },
+    {
+        "id": "9",
+        "avatar": "./img/avatar8.png",
+        "username": "Gartor"
+    },
+    {
+        "id": "10",
+        "avatar": "./img/avatar9.png",
+        "username": "Camilr"
+    }
+]

@@ -1,0 +1,36 @@
+body,html{
+  height: 100%;
+}
+ul{
+  list-style: none;
+}
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat Alternates', sans-serif;;
+}
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+  .wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+  }
+  .x-container{
+    width: 1200px;
+    margin: 0 auto;
+  }

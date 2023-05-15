@@ -1,0 +1,26 @@
+.stories{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 37px;
+}
+.headline{
+    display: flex;
+    text-align: unset;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headline-text{
+    font-size: 35px;
+    font-weight: 800;
+}
+.stories-item{
+    width: 80px;
+}
+.icons-block{
+    display: flex;
+    gap: 20px;
+}
