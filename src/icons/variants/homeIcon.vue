@@ -5,5 +5,3 @@
             fill="currentColor" />
     </svg>
 </template>
-
-
