@@ -7,11 +7,11 @@
             </div>
             <div class="about">
                 <h3 class="about__title">Vue.js</h3>
-                <p class="about__text"></p>
+                <p class="about__text"><b>JavaScript</b> framework for building interactive web applications ⚡</p>
                 <div class="about__buttons">
-                    <button class="star about__button"><img :src=star alt="" class="star__img"></button>
+                    <button class="star about__button"><img :src="star" alt="" class="star__img"> Star</button>
                     <span class="star-count about__button">156k</span>
-                    <button class="fork about__button"><img :src=fork alt="" class="fork__img"></button>
+                    <button class="fork about__button"><img :src="fork" alt="" class="fork__img"> Fork</button>
                     <span class="fork-count about__button">4</span>
                 </div>
             </div>
@@ -25,8 +25,8 @@
 /* eslint-disable vue/multi-word-component-names */
 /* eslint-disable */
 import feed from '../feed/feed.vue'
-import star from '../../../../public/img/star.png'
-import fork from '../../../../public/img/fork.png'
+import star from '../../../public/img/star.png'
+import fork from '../../../public/img/fork.png'
 export default {
     name: 'topComment',
     components:{

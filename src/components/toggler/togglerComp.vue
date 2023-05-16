@@ -11,7 +11,7 @@
 <script>
 /* eslint-disable vue/multi-word-component-names */
 /* eslint-disable */
-import icon from '../../../icons/icon.vue'
+import icon from '../../icons/icon.vue'
 
 export default {
     components: {

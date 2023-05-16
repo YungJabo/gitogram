@@ -21,11 +21,8 @@
                 </ul>
             </template>
 
-            <template #comments-block>
-                <topComment :avatar="stories[0].avatar" :username="stories[0].username"></topComment>
-            </template>
         </topline>
-
+<topComment :avatar="stories[0].avatar" :username="stories[0].username"></topComment>
     </div>
 </template>
 
@@ -35,8 +32,8 @@
 import topline from '../../components/topline/topline'
 import icon from '../../icons/icon'
 import stories from './data.json'
-import storyUserItem from '../../components/topline/storyUserItem/storyUserItem.vue'
-import topComment from '@/components/topline/topComment/topComment.vue'
+import storyUserItem from '../../components/storyUserItem/storyUserItem.vue'
+import topComment from '@/components/topComment/topComment.vue'
 
 export default {
     name: 'feeds',

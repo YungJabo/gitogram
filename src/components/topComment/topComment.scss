@@ -1,0 +1,79 @@
+.human{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 16px;
+    &__name{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    &__img{
+        width: 44px;
+    }
+}
+.comment-blocks{
+    max-width: 979px;
+    margin: 0 auto;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.about{
+    background: #FFFFFF;
+border: 1px solid #F1F1F1;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+text-align: left;
+padding-left: 20px;
+height: 173px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+&__buttons{
+display: flex;
+align-items: center;
+}
+}
+.about__button{
+    height: 28px;
+}
+.star{
+    background: #FAFBFC;
+box-shadow: 0px 1px 0px rgba(27, 31, 35, 0.04), inset 0px 2px 0px rgba(255, 255, 255, 0.02);
+border-radius: 6px 0px 0px 6px;
+width: 73px;
+cursor: pointer;
+position: relative;
+border: 1px solid rgba(27, 31, 35, 0.15);
+}
+.star-count{
+    filter: drop-shadow(0px 1px 0px rgba(27, 31, 35, 0.04));
+    width: 55px;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fork{
+    background: #FAFBFC;
+box-shadow: 0px 1px 0px rgba(27, 31, 35, 0.04), inset 0px 2px 0px rgba(255, 255, 255, 0.02);
+width: 73px;
+border: 1px solid rgba(27, 31, 35, 0.15);
+cursor: pointer;
+}
+.fork-count{
+    filter: drop-shadow(0px 1px 0px rgba(27, 31, 35, 0.04));
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 0 6px 6px 0px;
+    width: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

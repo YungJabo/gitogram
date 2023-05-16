@@ -11,6 +11,7 @@
     </div>
 </template>
 
+<style lang="scss" scoped src="./feed.scss"></style>
 <script>
 /* eslint-disable */
 import toggler from '../toggler/togglerComp.vue'
